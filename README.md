@@ -31,6 +31,6 @@
 
 [Try the assignment on The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app)
 
-[Look to the Sky!](https://gangoffour199.github.io/weatherApp/)
+[Should have brought an umbrella?](https://gangoffour199.github.io/weatherApp/)
 
 This markdown file was created using [dilinger.io](https://dillinger.io/)
