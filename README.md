@@ -8,7 +8,8 @@
 
 - Retrieves data from a backend API
 - Utilises async and await methods
-- Dynamically displays a variety of data points pertaining to location 
+- Dynamically displays a variety of data points pertaining to location
+- Up to date accuracy by the hour, day & week
 
 
 ## THIS PROJECT WAS MADE WITH
