@@ -4,7 +4,7 @@
 
 ## ABOUT
 
-> *A simple weather application that allows users to input their desired location, then have access to a plethora of information regarding the weather of whichever place they are*
+> *A simple weather application that allows users to input their desired location, then have access to a plethora of weather information of for that place*
 
 - Retrieves data from a backend API
 - Utilises async and await methods
