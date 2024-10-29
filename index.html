@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Sandinista Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head-container">
+      <div class="header">
+        <a href=""><h3>Sandinista Technologies</h3></a>
+        <ul class="links">
+          <a href="https://gangoffour199.github.io/Sign-up-form/">Welcome</a>
+          <a href="https://gangoffour199.github.io/Dashboard/">Dashboard</a>
+          <a href="https://gangoffour199.github.io/Calculator/">Tools</a>
+        </ul>
+      </div>
+    </div>
+    <div class="intro-container">
+      <div class="intro-content">
+        <h1>Welcome to the Sandinista Weather Channel!</h1>
+        <p>
+          <em>
+            Wherever you are in the world, at any time of day. We are your eyes
+            in the skies, come rain or shine!
+          </em>
+        </p>
+        <form id="location-form">
+          <label for="location-input"></label>
+          <input
+            id="location-input"
+            placeholder="Enter your location here..."
+          />
+          <button id="search-btn" type="submit">Go</button>
+        </form>
+      </div>
+    </div>
+    <div class="main-container">
+      <div id="location-title">LOCATION</div>
+      <div class="daily-title">DAILY FORECAST</div>
+      <div class="card-content">
+        <p class="temp-number" id="current-temp">..&deg;</p>
+        <div class="daily-box">
+          <div class="hourly-container">
+            <div class="hourly-card">
+              <span class="hour-text">12:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="12hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">13:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="13hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">14:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="14hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">15:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="15hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">16:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="16hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">17:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="17hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">18:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="18hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">19:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="19hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">20:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="20hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">21:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="21hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">22:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="22hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text">23:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="23hr">..&deg;</p>
+            </div>
+            <div class="hourly-card">
+              <span class="hour-text" >00:00</span>
+              <figure><img class="hourly-weather-img" src="" alt="" /></figure>
+              <p class="hour-temp" id="24hr">..&deg;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="day-range">
+        <div class="high-temp" id="high-temp">High: ..&deg;</div>
+        <div class="low-temp" id="low-temp">Low: ..&deg;</div>
+      </div>
+      <div class="weather-summary" id="weather-summary">
+        Today: Conditions. The temperature will peak at []. The low tonight will
+        be [].
+      </div>
+    </div>
+    <div class="details-container">
+      <div class="details-content">
+        <div class="glance-text"><em>At a glance</em></div>
+        <div class="details-table">
+          <table class="glance-panels">
+            <tr class="glance-headings">
+              <th>SUNRISE</th>
+              <th>SUNSET</th>
+              <th>CHANCE OF RAIN</th>
+              <th>HUMIDITY</th>
+              <th>WINDS</th>
+            </tr>
+            <tr>
+              <td id="sunrise-val">...</td>
+              <td id="sunset-val">...</td>
+              <td id="rain-val">...%</td>
+              <td id="humidity-val">...%</td>
+              <td id="winds-val">...km/hr</td>
+            </tr>
+            <tr class="glance-headings">
+              <th>FEELS LIKE</th>
+              <th>PRECIPITATION</th>
+              <th>PRESSURE</th>
+              <th>VISIBILITY</th>
+              <th>UV INDEX</th>
+            </tr>
+            <tr>
+              <td id="feels-val">...&deg;</td>
+              <td id="precipitation-val">...</td>
+              <td id="pressure-val">...hPa</td>
+              <td id="visibility-val">...km</td>
+              <td id="uvIndex-val">...</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="forecast-container">
+      <div class="forecast-content">
+        <h2>WEEKLY FORECAST</h2>
+        <div class="forecast-table">
+          <table class="forecast-panels">
+            <tr class="forecast-headings">
+              <th>DAY</th>
+              <th>CONDITIONS</th>
+              <th>DAILY HIGH (°C)</th>
+              <th>DAILY LOW (°C)</th>
+              <th>CHANCE OF RAIN (%)</th>
+            </tr>
+            <tr>
+              <td id="day1Forecast">...</td>
+              <td id="day1Conditions">...</td>
+              <td id="day1High">00</td>
+              <td id="day1Low">00</td>
+              <td id="day1Rain">..%</td>
+            </tr>
+            <tr>
+              <td id="day2Forecast">...</td>
+              <td id="day2Conditions">...</td>
+              <td id="day2High">00</td>
+              <td id="day2Low">00</td>
+              <td id="day2Rain">..%</td>
+            </tr>
+            <tr>
+              <td id="day3Forecast">...</td>
+              <td id="day3Conditions">...</td>
+              <td id="day3High">00</td>
+              <td id="day3Low">00</td>
+              <td id="day3Rain">..%</td>
+            </tr>
+            <tr>
+              <td id="day4Forecast">...</td>
+              <td id="day4Conditions">...</td>
+              <td id="day4High">00</td>
+              <td id="day4Low">00</td>
+              <td id="day4Rain">..%</td>
+            </tr>
+            <tr>            
+              <td id="day5Forecast">...</td>
+              <td id="day5Conditions">...</td>
+              <td id="day5High">00</td>
+              <td id="day5Low">00</td>
+              <td id="day5Rain">..%</td>
+            </tr>
+            <tr>
+              <td id="day6Forecast">...</td>
+              <td id="day6Conditions">...</td>
+              <td id="day6High">00</td>
+              <td id="day6Low">00</td>
+              <td id="day6Rain">..%</td>
+            </tr>
+            <tr>
+              <td id="day7Forecast">...</td>
+              <td id="day7Conditions">...</td>
+              <td id="day7High">00</td>
+              <td id="day7Low">00</td>
+              <td id="day7Rain">..%</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright &copy; of
+        <a href="https://github.com/GangOfFour199">Sandinista Technologies</a>
+        2024
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
