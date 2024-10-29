@@ -1,6 +1,6 @@
 ## WEATHER APP
 
-![](.png)
+![](weather.png)
 
 ## ABOUT
 
